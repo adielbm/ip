@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Subnet Calculator</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+        }
+        body {
+            font-family: monospace;
+            margin: 20px;
+        }
+        input {
+            font-family: monospace;
+            padding: 12px;
+            width: 100%;
+            box-sizing: border-box;
+            display: block;
+
+        }
+        table {
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        td {
+            padding: 5px 10px;
+            vertical-align: top;
+        }
+        td:first-child {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="input" value="57.6.96.2/21" />
+    
+    <table id="output"></table>
+
+    <script src="script.js"></script>
+</body>
+</html>
